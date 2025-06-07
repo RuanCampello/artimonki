@@ -11,6 +11,9 @@ def longestCommonPrefix(strs: List[str]) -> str:
             if backtrack + 1 == idx:
                 cursor += 1
                 backtrack = idx
+    # signed long long int / unsigned int
+    # i8 / i16 / i32 / i64 / i128
+    # char = i8
 
     return strs[-1][0:cursor]
 

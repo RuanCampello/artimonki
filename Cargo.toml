@@ -1,0 +1,10 @@
+[package]
+name = "artimonki"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[[bin]]
+name = "reverse-vowels"
+path = "./leet-code/reverse-vowels-of-a-string.rs"
