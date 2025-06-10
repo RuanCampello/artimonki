@@ -8,3 +8,7 @@ edition = "2024"
 [[bin]]
 name = "reverse-vowels"
 path = "./leet-code/reverse-vowels-of-a-string.rs"
+
+[[bin]]
+name = "cool-partition"
+path = "./codeforces/cool-partition.rs"
